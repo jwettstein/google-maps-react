@@ -147,6 +147,8 @@ export class Map extends React.Component {
           mapTypeId: mapTypeIds[mapTypeFromProps],
           center: center,
           zoom: this.props.zoom,
+          mapId: this.props.mapId,
+          heading: this.props.heading,
           maxZoom: this.props.maxZoom,
           minZoom: this.props.minZoom,
           clickableIcons: !!this.props.clickableIcons,
